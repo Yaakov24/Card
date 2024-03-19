@@ -1,0 +1,79 @@
+.rounded-square {
+  width: 270px;
+  height: 400px;
+  background: rgb(5, 209, 178);
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title h2 {
+  font-family: Tahoma, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 160px;
+}
+
+.square p {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 18px;
+  padding: 20px;
+}
+.tiny-squares-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.tiny-square {
+  width: 60px;
+  height: 20px;
+  background: rgb(245, 180, 2);
+  border-radius: 5px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  bottom: right;
+  /* Adjust this value to control the spacing between the tiny squares */
+}
+
+/* Add a different background color for each tiny square */
+.tiny-square:nth-child(1) {
+  background: rgb(245, 2, 14);
+}
+
+.tiny-square:nth-child(2) {
+  background: rgb(136, 2, 245);
+}
+
+.tiny-square:nth-child(3) {
+  background: rgb(145, 215, 255);
+}
+.tiny-square:nth-child(4) {
+  background: rgb(245, 2, 205);
+}
+.tiny-square:nth-child(5) {
+  background: rgb(245, 160, 2);
+}
+.tiny-square:nth-child(6) {
+  background: rgb(2, 245, 34);
+}
+.tiny-square:nth-child(7) {
+  background: rgb(172, 245, 2);
+}
+
+/* Add more styles for other tiny squares */
+
+.inner-square h4 {
+  margin: 0;
+  line-height: 4;
+  text-align: center;
+}
